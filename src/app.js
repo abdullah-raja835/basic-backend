@@ -25,7 +25,7 @@ app.get("/", (req, res) => {
 });
 
 app.get('*', (req, res) => {
-  re.send("You are on wrong page")
+  re.render("error")
 
 
 })
