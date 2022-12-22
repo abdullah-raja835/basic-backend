@@ -24,6 +24,12 @@ app.get("/", (req, res) => {
   res.render("home");
 });
 
+app.get('*', (req, res) => {
+  re.send("You are on wrong page")
+
+
+})
+
 
 
 
